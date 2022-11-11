@@ -1,0 +1,24 @@
+.comments {
+  width: 732px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.comment__container + .comment__container {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .comments {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .comment__container + .comment__container {
+    margin-bottom: 1rem;
+  }
+}

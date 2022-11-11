@@ -1,0 +1,21 @@
+{
+  "name": "interactive-comments-section",
+  "version": "1.0.0",
+  "description": "Interactive comments section",
+  "main": "app.js",
+  "scripts": {
+    "start": "node esbuild-serve.js",
+    "build": "node esbuild-build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Patel",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.13",
+    "esbuild-plugin-inline-image": "^0.0.8"
+  }
+}

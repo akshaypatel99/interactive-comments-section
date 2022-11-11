@@ -1,0 +1,32 @@
+.replies {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 90px auto;
+  margin-top: 1.5rem;
+}
+
+.replies__line {
+  width: 2px;
+  height: calc(100% - 1.5rem);
+  background-color: var(--light-gray);
+  justify-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .replies {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .replies__line {
+    width: 2px;
+    height: calc(100% - 1.5rem);
+    background-color: var(--light-gray);
+    justify-self: center;
+  }
+}

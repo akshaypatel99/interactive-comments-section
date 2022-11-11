@@ -1,0 +1,43 @@
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: max-content;
+  height: max-content;
+}
+
+.score__button, .score__counter {
+  border: none;
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 36px;
+}
+
+.score__button {
+  cursor: pointer;
+}
+
+.score__button:hover {
+  opacity: 0.75;
+}
+
+.score__counter {
+  color: var(--moderate-blue);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .score {
+    flex-direction: row;
+  }
+
+  .score__button, .score__counter {
+    width: 32px;
+  }
+}
