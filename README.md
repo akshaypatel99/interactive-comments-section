@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/akshaypatel99/frontend-mentor/tree/main/interactive-comments-section](https://github.com/akshaypatel99/frontend-mentor/tree/main/interactive-comments-section)
+- Solution URL: [https://github.com/akshaypatel99/interactive-comments-section](https://github.com/akshaypatel99/interactive-comments-section)
 - Live Site URL: [https://akshaypatel99.github.io/interactive-comments-section/](https://akshaypatel99.github.io/interactive-comments-section/)
 
 ## My process
