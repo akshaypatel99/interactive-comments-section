@@ -1,12 +1,15 @@
 {
   "name": "interactive-comments-section",
   "version": "1.0.0",
+  "homepage": "https://akshaypatel99.github.io/interactive-comments-section/",
   "description": "Interactive comments section",
   "main": "app.js",
   "scripts": {
     "start": "node esbuild-serve.js",
     "build": "node esbuild-build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Akshay Patel",
   "license": "MIT",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "esbuild": "^0.15.13",
-    "esbuild-plugin-inline-image": "^0.0.8"
+    "esbuild-plugin-inline-image": "^0.0.8",
+    "gh-pages": "^4.0.0"
   }
 }
