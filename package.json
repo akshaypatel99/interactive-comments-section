@@ -9,7 +9,7 @@
     "build": "node esbuild-build.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public/dist"
   },
   "author": "Akshay Patel",
   "license": "MIT",
